@@ -144,4 +144,3 @@ if __name__ == '__main__':
             net.params[key] -= learning_rate * grad[key]
         loss = net.loss(x_batch, t_batch)
         train_loss_list.append(loss)
-        #还缺少一部分minibatach的训练 第五章更新完函数一起写一章
