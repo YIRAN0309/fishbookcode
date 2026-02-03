@@ -1,5 +1,5 @@
 import numpy as np
-
+"""这个拿来练手的 看test是完整可运行的"""
 class TwoLayerNet:
     def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):
         self.input_size = input_size
